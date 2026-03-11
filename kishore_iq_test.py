@@ -1,4 +1,11 @@
 import time
+import sys
+
+# Colab-safe input wrapper
+def ask(prompt):
+    sys.stdout.write(prompt)
+    sys.stdout.flush()
+    return sys.stdin.readline().rstrip("\n")
 
 print("=" * 55)
 print("   OFFICIAL LAB IQ ASSESSMENT v2.7 (Kishore Edition)")
@@ -12,7 +19,7 @@ time.sleep(1.5)
 
 # --- Question 1 ---
 print("-" * 55)
-q1 = input("Q1. On a scale of 1-10, how smart do you think you are? ")
+q1 = ask("Q1. On a scale of 1-10, how smart do you think you are? ")
 print()
 time.sleep(0.8)
 print("Interesting... processing your response with our")
@@ -22,7 +29,7 @@ print()
 
 # --- Question 2 ---
 print("-" * 55)
-q2 = input("Q2. How many hours of sleep did you get last night? ")
+q2 = ask("Q2. How many hours of sleep did you get last night? ")
 print()
 time.sleep(0.8)
 print("Cross-referencing with global sleep databases...")
@@ -31,7 +38,7 @@ print()
 
 # --- Question 3 ---
 print("-" * 55)
-q3 = input("Q3. What is your greatest strength as a researcher? ")
+q3 = ask("Q3. What is your greatest strength as a researcher? ")
 print()
 time.sleep(0.8)
 print("Consulting the academic council...")
@@ -40,7 +47,7 @@ print()
 
 # --- Question 4 ---
 print("-" * 55)
-q4 = input("Q4. Finally — what do you call a fish without eyes? ")
+q4 = ask("Q4. Finally — what do you call a fish without eyes? ")
 print()
 time.sleep(1)
 
