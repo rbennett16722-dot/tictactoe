@@ -1,0 +1,78 @@
+import time
+
+print("=" * 55)
+print("   OFFICIAL LAB IQ ASSESSMENT v2.7 (Kishore Edition)")
+print("=" * 55)
+print()
+print("Welcome, Kishore.")
+print("This is a rigorous scientific evaluation of your")
+print("cognitive abilities. Please answer honestly.")
+print()
+time.sleep(1.5)
+
+# --- Question 1 ---
+print("-" * 55)
+q1 = input("Q1. On a scale of 1-10, how smart do you think you are? ")
+print()
+time.sleep(0.8)
+print("Interesting... processing your response with our")
+print("proprietary neural scoring algorithm...")
+time.sleep(2)
+print()
+
+# --- Question 2 ---
+print("-" * 55)
+q2 = input("Q2. How many hours of sleep did you get last night? ")
+print()
+time.sleep(0.8)
+print("Cross-referencing with global sleep databases...")
+time.sleep(2)
+print()
+
+# --- Question 3 ---
+print("-" * 55)
+q3 = input("Q3. What is your greatest strength as a researcher? ")
+print()
+time.sleep(0.8)
+print("Consulting the academic council...")
+time.sleep(2.5)
+print()
+
+# --- Question 4 ---
+print("-" * 55)
+q4 = input("Q4. Finally — what do you call a fish without eyes? ")
+print()
+time.sleep(1)
+
+# --- RESULTS ---
+print()
+print("=" * 55)
+print("         CALCULATING YOUR FINAL SCORE...")
+print("=" * 55)
+time.sleep(0.5)
+for i in range(3):
+    print("  [" + "#" * (10 + i * 10) + " " * (20 - i * 10) + "]")
+    time.sleep(0.6)
+print()
+time.sleep(0.5)
+
+print("OFFICIAL RESULTS FOR: KISHORE")
+print()
+print(f"  Q1 answer ('{q1}'): irrelevant")
+print(f"  Q2 answer ('{q2}'): also irrelevant")
+print(f"  Q3 answer ('{q3}'): cute, but irrelevant")
+print(f"  Q4 answer ('{q4}'): WRONG.")
+print()
+print("=" * 55)
+print("  THE CORRECT ANSWER IS: a 'fsh'.")
+print("  (No eyes = no i's)")
+print()
+print("  FINAL IQ SCORE: NaN")
+print()
+print("  ASSESSMENT: You survived the test, Kishore.")
+print("              That's already more than we expected.")
+print("=" * 55)
+print()
+print("  This test was brought to you by your loving lab")
+print("  mate, who clearly has way too much free time.")
+print()
